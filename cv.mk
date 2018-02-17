@@ -1,92 +1,98 @@
-#Mateusz Curylo
-
+# Mateusz Curylo
 * email: mhcurylo-at-gmail-dot-com
-* phone: 07840829296
-
 * github: [mhcurylo](https://github.com/mhcurylo)
 * twitter: [@mhcurylo](https://twitter.com/mhcurylo)
 
 ## Personal summary
 
-I am a polyglot programmer with a background in philosophy of media and computing.
-My experience ranges from writing AngularJS/Cordova mobile aps for my own startup, through cooperating on large Angular/TypeScript/Redux projects to using Ansible scripts to ship Dataflows to Google cloud. 
-Currently, when not concerned with Apache Beam/Big Query stories, I lead internal TypeScript/Functional Programming workshops or fill in a release.
 
-In my spare time I love learning new languages, experimenting with frontend stacks and participating in JavaScript game jams.
+I am a polyglot programmer with a background in the philosophy of media and computing.
+I work as a fullstack developer within a SCRUM team. My team is tasked with delivering features for a kuberentes microservices system. The system deploys, coordinates and translates between gaming products of different companies across jurisdictions. To deliver we work with Java/Spring, TypeScript/Angular, GoCD/Ansible and script bash. Our data processing is handled via Google Cloud (Pub-Sub/Apache Beam/Big Query). We employ TDD and CI in our everyday work.
+In my spare time I enjoy writing a bit of Haskell, Idris or Purescript, be it useful script, a coding exercise or an open source contribution.
 
-On my github you might find experiments with technologies such as Clojure/ClojureScript/DataScript, React/Redux/Immutable.js and Haskell.
 
 ## Technical Profile
 
+
+* Fundamentals of category theory functional programming (Haskell, vavr.io for Java, fantasy-land spec for JS)
+* Experience with reactive programming (Behaviour, RxJS, WebFlux)
+* Experience with big data streaming and processing in google cloud (Pub-Sub, Apache Beam, BigQuery)
+* Enterprise level Java and TypeScript experience
+* Experience with frontend languages and frameworks (JavaScript, TypeScript, Angular, Redux, RxJS)
+* Basics of Linux terminal usage and shell scripting
+* Continuous Integration (GoCD, SonarQube, Ansible)
 * TDD (Jasmine, JUnit, HUnit)
 * BDD (Mocha/Chai with Cucumber.js/gherkin)
-* Property Testing (vavr.io, QuickCheck)
-* Reactive Functional Programming (RxJava, RxJs)
-* Category Theory Functional Programming (Haskell, vavr.io for Java, fantasy-land spec for JS)
-* Big data streaming (Apache Beam)
-* CSS frameworks and preprocessors (Bootstrap, Jeet, Axis, SCSS, Less, Stylus)
-* Frontend languages and frameworks (JavaScript, TypeScript, AngularJS, Angular, React)
-* Frontend build systems (webapack, angular cli, fuse-box)
-* Frontend linting (JSLint, TSLint, ESLint)
+* Property testing (vavr.io, QuickCheck)
+
 
 ## Soft skills
 
-* Agile (SCRUM, cooperating with stakeholders to get stuff done)
+
+* Agile (SCRUM, cooperating with stakeholders to get things done)
 * Public speaking (teaching devs and philosophy undergraduates, presenting, leading workshops)
-* Reading (as a former philosopher, I can read like a pro)
 
 
 ## Career History
 
+
 ### Gamesys Limited
 
-March 2016 - Present
 
-Java/Apache Beam/Google Cloud/vavr.io, Ansible, TypeScript/Angular2/RxJS/NgRxStore (Redux), React/Redux/DataScript, Mocha/Chai/Cucumber
+January 2017 - Present
+Java/Apache Beam/BigQuery, GoCD/Docker/Kubernetes/Ansible, Java/Spring
+Fullstack developer
+- Introduced immutability, functional error handling, IO/pure function splitting and applicative validation into Apache Beam projects in order to improve reliability
+- Cooperated with TAs and PO in design and implementation of financial data aggregation strategy using PubSub/Apache Beam/BigQuery/vavr.io
+- Currently working on a Spring/Java/Kubernetes core microservices system while maintaining data operations of the area
+- TDD with JUnit, E2E testing of the whole system, introduced Kotlin for easy type safe domain expression in mocks
+- Lead multiple internal Functional Programming workshops on both TypeScript and Java.
 
-Polyglot fullstack developer
 
- - cooperating with TAs and PO in design and implementation of data aggregation strategy using Java/Dataflow/BigQuery
- - worked in a full stack team to deliver an Angular/NgRx SPA for internal use
- - implemented testing framework using Mocha/Chai/Cucumber
- - wrote prototypes of SPA in React/Redux/DataScript and Aurelia
- - leading internal workshops and functional programming meet-ups
+March 2016 - January 2017
+Docker/Ansible, TypeScript/Angular2/RxJS
+Frontend developer
+- Cooperated on an internal SPA from the design phase to release
+- Showcased prototypes in both Aurelia and React/Redux/Datascript
+- Delivered an Angular/RxJS/Redux SPA for internal use
+- Introduced BDD testing using Mocha/Chai/Cucumber
+- Lead internal workshops on Functional Programming in JavaScript/TypeScript
 
 
 ### Cometari Dedicated Solutions
 
+
 October 2015 - December 2015, contract
-
 GIT, Grunt, AngularJS, REST, OOP, SCSS, Bootstrap, Jeet, Svg
+Frontend JavaScript in a fast paced Agile environment
+- Shipped SPA with AngularJS consuming RESTfull web services
+- Designed and developed a module for creating HTML complex input forms from JSON with AngularJS, lodash and prototyping methods
+- Implemented dynamic and static pages based on wireframes with AngularJS/Bootstrap and AngularJS/Jeet
 
-Frontend JavaScript in a fast paced Agile environment 
-
- - shipped SPA with AngularJS consuming RESTfull web services
- - designed and developed module for creating HTML complex input forms from JSONs with AngularJS, lodash and advanced prototyping methods
- - implemented dynamic and static pages based on wireframes with AngularJS/Bootstrap and AngularJS/Jeet
 
 ### Heartland Games
 
-October 2014 - October 2015, self-founded
 
-AngularJS, WebAudio, Cordova, Crosswalk, Less, Bootstrap, OOP, Svg, Canvas
-
+October 2014 - October 2015, self-funded
+AngularJS, WebAudio, Cordova, Crosswalk, Less, Bootstrap, OOP, SVG, Canvas
 Game designer/Game developer/Founder
+- Designed and developed an AngularJS/Cordova game for mobile
+- Integrated Cordova plugins to Angular app including analytic, in-app billing and AdMob
+- Shipped AngularJS/Cordova mobile game
+- Designed and developed a promotional web page
 
- - designed and developed an AngularJS/Cordova game for mobile
- - integrated Cordova plugins to Angular app including analytic, in-app billing and admob
- - shipped AngularJS/Cordova mobile game
- - designed and developed promotional web page
 
 ## Education
 
+
 MA Philosophy, Jagiellonian University
+Relevant coursework: Philosophy of Information, Introduction to Logic with Set Theory
 
-Releant coursework: Philosophy of Information, Introduction to Logic with Set Theory
 
-## Other
+## Trivia
 
- - I have worked as teaching assistant on Jagiellonian University and as a lecturer on Academia Ignatianum in Cracow, teaching courses like _Aesthetics of Electronic Age_, _Arts and Aesthetics in XXI Century_ and _Philosophy of the web II_.
- - I have made a one button twitter interface
- - I beat Dark Souls
 
+- I have a SCRUM Master certification.
+- Somehow, my name made it to the list of Purescript contributors.
+- While doing PhD studies in Philosophy I have worked as teaching assistant on Jagiellonian University and as a lecturer on Academia Ignatianum in Cracow, teaching courses titled _Aesthetics of Electronic Age_, _Arts and Aesthetics in XXI Century_ and _Philosophy of the web II_.
+- I love From Software computer games.

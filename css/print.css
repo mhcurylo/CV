@@ -1,0 +1,37 @@
+button {
+  visibility: hidden; 
+}
+
+body { 
+  line-height: 1.45; 
+  font-family: Garamond,"Times New Roman", serif; 
+  color: #000; 
+  background: none; 
+  font-size: 12pt; }
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
+h1{font-size:17pt;}
+h2{font-size:15pt;}
+h3{font-size:13pt;}
+h4,h5,h6{font-size:12pt;}
+
+p, h2, h3 { orphans: 3; widows: 3; }
+
+a:link, a:visited {
+  color: #781351
+}
+      
+a:after{content:" (" attr(href) ") ";font-size:12pt;font-weight:normal;}
+
+.printnot {
+  visibility: hidden;
+}
+
+.container {
+  margin-top: 4cm;
+}
+
+@page { 
+  margin: 2.25cm;
+}

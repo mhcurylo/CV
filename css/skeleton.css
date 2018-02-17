@@ -391,6 +391,9 @@ hr {
   display: table;
   clear: both; }
 
+.topmargin {
+  margin-top: 25%;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -400,7 +403,6 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
